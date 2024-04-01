@@ -1,9 +1,7 @@
 import { Request, Response } from "express";
 
 const indexController = (_req: Request, res: Response) => {
-  res.send("Hello Worldsjdsjd!");
-
-  console.log("Hello World!");
+  res.send("Welcome to the TS-BoilerplateX!");
 };
 
 export default { indexController };
