@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-import { execSync } from "child_process";
+const { execSync } = require("child_process");
 
-const runCommand = (command: string): boolean => {
+const runCommand = (command) => {
   try {
     execSync(command, { stdio: "inherit" });
     return true;
@@ -19,7 +19,7 @@ if (!repoName) {
   process.exit(1);
 }
 
-const gitCheckoutCommand = `git clone --depth 1 https://github.com/eldhopaulose/TS-BoilerplateX ${repoName}`;
+const gitCheckoutCommand = `git clone --depth 1 https://github.com/eldhopaulose/npm-demo ${repoName}`;
 
 console.log(`Cloning repo ${repoName}...`);
 

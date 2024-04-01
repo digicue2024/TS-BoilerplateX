@@ -1,10 +1,10 @@
 {
-  "name": "@eldhopaulose/ts-boilerplatex",
-  "version": "1.0.0",
+  "name": "ts-boilerplatex",
+  "version": "1.0.1",
   "description": "TS-BoilerplateX is a meticulously crafted boilerplate tailored for developers seeking a seamless starting point for building powerful web applications with TypeScript and Express.js. With TS-BoilerplateX, harness the combined benefits of TypeScript's static typing and Express.js' flexibility to expedite your development process while ensuring code integrity and maintainability.",
   "main": "main.js",
   "bin": {
-    "TS-BoilerplateX": "./bin/cli.ts"
+    "TS-BoilerplateX": "bin/cli.js"
   },
   "scripts": {
     "dev": "nodemon",
@@ -62,5 +62,8 @@
     "cookie-parser": "^1.4.6",
     "express": "^4.19.2",
     "morgan": "^1.10.0"
+  },
+  "directories": {
+    "doc": "docs"
   }
 }
