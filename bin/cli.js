@@ -19,7 +19,7 @@ if (!repoName) {
   process.exit(1);
 }
 
-const gitCheckoutCommand = `git clone --depth 1 https://github.com/eldhopaulose/npm-demo ${repoName}`;
+const gitCheckoutCommand = `git clone --depth 1 https://github.com/eldhopaulose/TS-BoilerplateX ${repoName}`;
 
 console.log(`Cloning repo ${repoName}...`);
 
