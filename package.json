@@ -26,7 +26,6 @@
     "typescript",
     "express",
     "framework",
-    "sinatra",
     "web",
     "rest",
     "restful",
@@ -35,7 +34,7 @@
     "api"
   ],
   "author": "Eldho Paulose",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/eldhopaulose/TS-BoilerplateX/issues"
   },
