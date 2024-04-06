@@ -83,4 +83,4 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## License
 
-Licensed under the MIT. See the [LICENSE](https://github.com/eldhopaulose/TS-BoilerplateX/blob/main/LICENSE) file for details.
+Licensed under the Apache-2.0. See the [LICENSE](https://github.com/eldhopaulose/TS-BoilerplateX/blob/main/LICENSE) file for details.

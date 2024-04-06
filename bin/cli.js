@@ -30,18 +30,19 @@ if (!checkedOut) {
   process.exit(1);
 }
 
-const installCommand = `cd ${repoName} && npm install`;
+// const installCommand = `cd ${repoName} && npm install`;
 
-console.log(`Installing dependencies...`);
+// console.log(`Installing dependencies...`);
 
-const installed = runCommand(installCommand);
+// const installed = runCommand(installCommand);
 
-if (!installed) {
-  console.error("Failed to install dependencies. Exiting...");
-  process.exit(1);
-}
+// if (!installed) {
+//   console.error("Failed to install dependencies. Exiting...");
+//   process.exit(1);
+// }
 
 console.log("Congrats! You are all set up!");
 console.log("Follow the below steps to run the project:");
 console.log(`cd ${repoName}`);
-console.log("npm start");
+console.log("npm install or yarn");
+console.log("npm run start");
